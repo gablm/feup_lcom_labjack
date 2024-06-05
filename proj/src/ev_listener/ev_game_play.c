@@ -57,6 +57,7 @@ void handle_double(void *ptr) {
 
   player_t *player = &app->game.main_player;
 
+	player->coins -= player->bet;
   player->bet *= 2;
 
   game_give_card(app->game.cards, player->cards);
