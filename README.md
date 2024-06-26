@@ -1,5 +1,7 @@
 # LCOM Project - LabJack
 
+> Final Grade: **19.8**
+
 LCOM Project for group T05-G03.<br>
 A Black Jack game implementation in C using "user drivers" targetting MINIX.
 
